@@ -1,0 +1,37 @@
+{
+  "name": "delicious-cleaner",
+  "version": "0.1.0",
+  "main": "lib/delicious-cleaner.js",
+  "description": "Node.js based CLI tool for cleaning out your delicious.com account (removes 404's)",
+  "homepage": "https://github.com/davidfq/delicious-cleaner",
+  "bugs": "user/repo/issues",
+  "author": {
+    "name": "David Fernández",
+    "email": "",
+    "url": "http://twitter.com/davidfq"
+  },
+  "repository": {
+    "type": "git",
+    "url": "user/repo"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "bin": {
+    "delicious-cleaner": "./bin/delicious-cleaner.js"
+  },
+  "preferGlobal" : "true",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "xml2js": "~0.4.1",
+    "winston": "~0.7.2",
+    "util-extend": "~1.0.1",
+    "request": "~2.33.0",
+    "async": "~0.2.10",
+    "prompt": "~0.2.12"
+  }
+}
