@@ -1,6 +1,6 @@
 {
   "name": "delicious-cleaner",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/delicious-cleaner.js",
   "description": "Node.js based CLI tool for cleaning out your delicious.com account (removes 404's)",
   "homepage": "https://github.com/davidfq/delicious-cleaner",
